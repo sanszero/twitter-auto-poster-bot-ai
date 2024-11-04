@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate garbage";
+    "generate about garbage";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
